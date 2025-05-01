@@ -1,0 +1,31 @@
+{
+    "name": "snake-game",
+    "version": "1.0.0",
+    "description": "A full stack snake game application",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "dev": "nodemon server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "snake",
+        "game",
+        "nodejs",
+        "express",
+        "mongodb"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "express": "^4.21.2",
+        "mongoose": "^7.8.7"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
